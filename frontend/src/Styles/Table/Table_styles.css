@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Jim+Nightshade&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap');
+
+/* ______________________________________ Table Styles_____________________________________________________________ */
+
+#first_table {
+    width: 100%;
+    display: flexbox;
+    justify-items: center;
+    background-color: azure;  
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+#first_table h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#first_table table {
+    width: 80%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    overflow: hidden;
+    font-size: 1em;
+    margin: 0 auto;
+}
+
+
+#first_table th, td {
+    border: 2px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#first_table th {
+    background-color: black;
+    color: white;
+    font-size: 1.8em;
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#first_table tr:nth-child(even) {
+    background-color: #e8f5e9;
+}
+
+#first_table tr {
+    height: 130px;
+}
+
+#first_table tr:hover {
+    background-color: #d4edda;
+    transition: 0.3s;
+}
+#first_table img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+#first_table a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+#first_table a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* ______________________________________ Logo Styles _____________________________________________________________ */
+
+th#table_logo {
+    background-color: black;
+}
+
+th#table_logo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+/* ______________________________________ Image Table Rows _____________________________________________________________ */
+
+td#Amazon_Rainforest {
+    background-image: url("../../Student_2_Pictures/Shop/Amazon_Rainforest.png");
+}
+
+td#African_Savanna {
+    background-image: url("../../Student_2_Pictures/Shop/African_Savannah.png");
+}
+
+td#North_America {
+    background-image: url("../../Student_2_Pictures/Shop/North_America.png");
+}
+
+td#Europe {
+    background-image: url("../../Student_2_Pictures/Shop/Europe.png");
+}
+
+td#Southeast_Asia {
+    background-image: url("../../Student_2_Pictures/Shop/Southeast_Asia.png");
+}
+
+td#Madagascar {
+    background-image: url("../../Student_2_Pictures/Shop/Madagascar.png");
+}
+
+td#Arctic {
+    background-image: url("../../Student_2_Pictures/Shop/Arctic.png");
+}
+
+td#Australian_BushLands {
+    background-image: url("../../Student_2_Pictures/Shop/Australian_Bushlands.png");
+}
+
+td#Amazon_Rainforest, td#African_Savanna, td#North_America,td#Europe, 
+td#Southeast_Asia, td#Madagascar, td#Arctic, td#Australian_BushLands {
+
+    background-position: center;
+    color: white;
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    
+    text-shadow: 
+        1px 1px 0px black, 
+        -1px -1px 0px black,
+        1px -1px 0px black,
+        -1px 1px 0px black;
+
+}

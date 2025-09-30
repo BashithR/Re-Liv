@@ -1,0 +1,81 @@
+
+/* Basic Reset / Body Styling */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* Container for Editor Content */
+  .editor_container {
+    min-height: 100vh;
+    max-width: 1200px;
+    width: 100%;
+    margin: 100px auto 0 auto; /* Centers the container */
+  }
+
+  /* Section Boxes */
+  .section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .section h2 {
+    background: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 0;
+    font-size: 2em;
+  }
+
+
+  .section p {
+    padding: 40px;
+    font-size: 1.5em;
+    text-align: left;
+  }
+
+  .section ol,ul {
+    font-size: 1.2em;
+    padding-left: 50px;
+  }
+
+  /* Button Styles */
+  .btn {
+    display: block;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 10px 15px;
+    background: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .btn:hover {
+    background: black;
+  }
+
+  /* Back-to-top Button */
+  .back-to-top {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 15px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .back-to-top:hover {
+    background: green;
+  }
