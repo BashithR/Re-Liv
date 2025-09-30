@@ -22,7 +22,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 15px;
+  padding: 1rem;
   position: fixed;
   top: 0;
   z-index: 5;
@@ -50,6 +50,7 @@ header {
 
 .navigation a {
   text-decoration: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
   color: white;
   padding: 6px 10px;
   border-radius: 20px;
@@ -90,7 +91,7 @@ footer {
   width: 12rem;
   height: auto;
   border-radius: 50%;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 1rem rgba(255, 255, 255, 0.5);
 }
 
 #footerSlogan {
@@ -99,14 +100,23 @@ footer {
 
 #footerSlogan h2 {
   font-size: 1.5rem;
-  margin-bottom: 15px;
-  color: lightgreen;
+  margin-bottom: 1rem;
+  color: green;
 }
 
 #footerSlogan p {
   font-size: 0.8rem;
-  margin-top: 15px;
+  margin-top: 1rem;
   color: white;
+}
+
+#footer-p {
+  text-align: justify;
+}
+
+#footer-p-imp {
+  font-weight: 500;
+  font-style: italic;
 }
 
 #footer-links a {
@@ -114,15 +124,14 @@ footer {
   color: white;
   text-decoration: none;
   text-align: left;
-  margin: 10px 0;
   font-weight: bold;
   transition: all 0.3s;
   font-size: 0.8rem;
 }
 
 #footer-links a:hover {
-  color: lightgreen;
-  text-decoration: underline;
+  color: green;
+  transform: translateX(1rem);
   scale: 1.1;
 }
 
@@ -135,14 +144,15 @@ footer {
 
 #Svg-container svg {
   fill: white;
-  transition: transform 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   width: 2rem;
   height: 2rem;
 }
 
 #Svg-container svg:hover {
-  transform: scale(1.2);
-  fill: lightgreen;
+  transform: scale(1.1) translateY(-0.5rem);
+
+  fill: green;
 }
 
 #bottom-content {
@@ -157,5 +167,5 @@ hr {
   height: 2px;
   background-color: white;
   width: 90%;
-  margin: 15px auto;
+  margin: 1rem auto;
 }

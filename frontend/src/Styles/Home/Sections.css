@@ -1,34 +1,5 @@
 /* CSS for Sections After the Main Video */
 
-/* SECTION 1 ---------------------------------------------------------------------------------------------------------------------*/
-
-#section1 {
-  margin-top: -5px;
-  width: 100%;
-  background: black;
-  background-size: cover;
-  text-align: center; /* Center the text inside */
-  padding: 50px 20px; /* Add padding to space out the content */
-}
-
-#section1 h2 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: rgb(34, 139, 34);
-  font-size: 5em;
-  text-align: center;
-  padding-top: 50px;
-}
-
-#section1 p {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  font-size: 1.5em;
-  color: rgb(34, 139, 34);
-  text-align: center;
-}
-
 /* SECTION 2 ---------------------------------------------------------------------------------------------------------------------*/
 
 #section2 {
@@ -91,7 +62,7 @@
 /* Description Styling */
 .description {
   width: 50%;
-  text-align: center;
+  text-align: justify;
   color: white;
 }
 
@@ -108,7 +79,7 @@
 }
 
 .description p {
-  font-size: 1.2em;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
@@ -117,16 +88,14 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: 1.2em;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
+  font-size: 1rem;
   background-color: black;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
   color: azure;
   cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
+  transition: transform 0.2s ease;
 }
 
 /* Hover Effect */
@@ -167,14 +136,15 @@
 .button-link {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #4caf50;
-  color: white;
+  background-color: green;
+  color: black;
   text-decoration: none;
   border-radius: 5px;
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
+  transition: all 0.3s;
 }
 
 .button-link:hover {
-  background-color: #45a049;
+  background-color: white;
 }
