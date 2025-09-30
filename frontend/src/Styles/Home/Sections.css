@@ -34,11 +34,8 @@
 #section2 {
   margin-top: -5px;
   width: 100%;
-  background: url("../../../assets/Home/Section2_Worlds_End.jpg");
-  background-size: cover;
   text-align: center; /* Center the text inside */
   padding: 50px 20px; /* Add padding to space out the content */
-  transition: background 0.8s ease-in-out; /* Smooth transition */
 }
 
 #section2 h2 {

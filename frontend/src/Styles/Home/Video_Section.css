@@ -1,19 +1,17 @@
 /* The Main Background video */
 
 #Video-Section {
-  position: relative;   /* To position content above the video */
+  position: relative; /* To position content above the video */
   width: 100%;
-  height: 100vh;        /* Full viewport height */
-  overflow: hidden;     /* Ensures video doesn't spill out of the section */
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Ensures video doesn't spill out of the section */
   display: block;
-  text-align: center;   /* Centers text content inside the section */
-  
+  text-align: center; /* Centers text content inside the section */
 }
-
 
 /* Black overlay to darken the background */
 #Video-Section::before {
-  content: ''; /* Empty content for the overlay */
+  content: ""; /* Empty content for the overlay */
   position: absolute;
   top: 0;
   left: 0;
